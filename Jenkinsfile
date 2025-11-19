@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build a docker image') {
             steps {
-                   sh "docker build -t experts ."            
+                   sh "sudo docker build -t experts ."            
             }
         }
     }
